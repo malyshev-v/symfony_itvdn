@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  symf_itvdn_php:
+    build: ./php
+    container_name: symf_itvdn_php
+    volumes:
+      - ../:/var/www/html
+    ports:
+      - 8099:80
+    environment:
+      WEB_DOCUMENT_ROOT: /var/www/html/sources/public/
+      # WEB_DOCUMENT_INDEX: index.php
+      PHP_MEMORY_LIMIT: 2048M
+      PHP_UPLOAD_MAX_FILESIZE: 512M
+      PHP_POST_MAX_SIZE: 512M
+      PHP_DATE_TIMEZONE: Europe/Kiev
+      PHP_DISPLAY_ERRORS: 1
+      php.xdebug.max_nesting_level: 500
+    networks:
+      - symf-itvdn-net
+    # depends_on:
+    #   - symf_blog_mysql
+
+  symf_itvdn_mysql:
+    build: ./mysql/
+    container_name: symf_itvdn_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: cbece_gead-cebfa
+      MYSQL_DATABASE: symf_itvdn
+    ports:
+      - 3105:3306
+    networks:
+      - symf-itvdn-net
+
+
+networks:
+  symf-itvdn-net:
+
+  # networks:
+  #   - symf_blog_net
