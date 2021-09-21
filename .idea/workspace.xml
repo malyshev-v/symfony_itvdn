@@ -1,362 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cb5038a-1aec-4502-a3d9-1e4ea376332b" name="Default Changelist" comment="lesson 9 completed">
-      <change beforePath="$PROJECT_DIR$/sources/src/Controller/NewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/src/Controller/NewController.php" afterDir="false" />
+    <list default="true" id="49534568-b1d2-4ae8-bcf3-342c34ebf9bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/DependencyInjection/Compiler/CustomPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Service/RandGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/.env" beforeDir="false" afterPath="$PROJECT_DIR$/sources/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/sources/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/sources/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sources/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sources/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/src/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sources/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/sources/composer.json</pharConfigPath>
-    <execution>
-      <executable path="composer" />
-    </execution>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/sources/templates/default/feedback.html.twig" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/var/log/dev.log" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/templates/default/email/feedback.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/src/Form/PostForm.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/.env.local" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/composer.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sources/src/Controller/NumberController.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sources/src/Service/RandGenerator.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sources/src/Controller/DefaultController.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/.env.test" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/src/Form/FeedbackForm.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/.env" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/src/Controller/PostController.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/sources/templates/layout.html.twig" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sources/src/Kernel.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sources/config/services.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sources/src/DependencyInjection/Compiler/CustomPass.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
-    <include_path>
-      <path value="$PROJECT_DIR$/sources/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/sources/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/sources/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/sources/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/sources/vendor/friendsofphp/proxy-manager-lts" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/event-manager" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/persistence" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/sql-formatter" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/migrations" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/orm" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/deprecations" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/doctrine-migrations-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/security-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/http-client-contracts" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/serializer" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/polyfill-intl-icu" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/framework-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/maker-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/security-http" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/password-hasher" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/notifier" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/var-exporter" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/security-guard" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/runtime" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/string" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/web-link" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/form" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/web-profiler-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/polyfill-intl-idn" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/cache-contracts" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/monolog-bridge" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/options-resolver" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/filesystem" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/doctrine-bridge" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/http-kernel" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/polyfill-intl-grapheme" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/twig-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/property-info" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/proxy-manager-bridge" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/event-dispatcher-contracts" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/asset" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/flex" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/cache" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/translation-contracts" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/dependency-injection" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/polyfill-php81" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/monolog-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/config" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/debug-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/dotenv" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/error-handler" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/property-access" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/security-csrf" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/mime" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/stopwatch" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/security-core" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/intl" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/polyfill-php80" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/expression-language" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/polyfill-intl-normalizer" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/dom-crawler" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/validator" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/twig-bridge" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/http-client" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/mailer" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/browser-kit" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/polyfill-php73" />
-      <path value="$PROJECT_DIR$/sources/vendor/laminas/laminas-code" />
-      <path value="$PROJECT_DIR$/sources/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/sources/vendor/sensio/framework-extra-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/sources/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/sources/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/sources/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/sources/vendor/twig/extra-bundle" />
-      <path value="$PROJECT_DIR$/sources/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/sources/vendor/psr/event-dispatcher" />
-      <path value="$PROJECT_DIR$/sources/vendor/psr/link" />
-      <path value="$PROJECT_DIR$/sources/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/sources/vendor/composer" />
-      <path value="$PROJECT_DIR$/sources/vendor/squizlabs/php_codesniffer" />
-      <path value="$PROJECT_DIR$/sources/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/sources/vendor/phpunit/php-invoker" />
-      <path value="$PROJECT_DIR$/sources/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/sources/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/sources/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/sources/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/type" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/code-unit" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/complexity" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/cli-parser" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/lines-of-code" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/sources/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/sources/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/sources/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/sources/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/sources/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/sources/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/sources/vendor/symfony/google-mailer" />
-    </include_path>
-  </component>
-  <component name="ProjectId" id="1vY0T3wLyzWiqzMeMk013NHHFH3" />
+  <component name="ProjectId" id="1yRpIwtgytQYgyhRYzKlMJ7olHf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sources/templates/default/email" />
-      <recent name="$PROJECT_DIR$/sources/templates/email" />
-      <recent name="$PROJECT_DIR$/sources/tests/Controller/PostController" />
-      <recent name="$PROJECT_DIR$/sources/public" />
-      <recent name="$PROJECT_DIR$/sources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sources/templates/default" />
-      <recent name="$PROJECT_DIR$/sources/src/Trait" />
-      <recent name="$PROJECT_DIR$/sources/tests/Controller/DefaultController" />
-      <recent name="$PROJECT_DIR$/sources/templates/lucky" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="CreateTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Controller\PostController\CreateTest" file="$PROJECT_DIR$/sources/tests/Controller/PostController/CreateTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHPUnit.CreateTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5cb5038a-1aec-4502-a3d9-1e4ea376332b" name="Default Changelist" comment="" />
-      <created>1626723719142</created>
+      <changelist id="49534568-b1d2-4ae8-bcf3-342c34ebf9bd" name="Changes" comment="" />
+      <created>1632224179209</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1626723719142</updated>
-      <workItem from="1626723720484" duration="2378000" />
-      <workItem from="1626768848841" duration="538000" />
-      <workItem from="1626791167223" duration="868000" />
-      <workItem from="1626805912930" duration="5734000" />
-      <workItem from="1626891888328" duration="3741000" />
-      <workItem from="1626895671276" duration="839000" />
-      <workItem from="1627402012449" duration="6211000" />
-      <workItem from="1627575576588" duration="435000" />
-      <workItem from="1629044840802" duration="4334000" />
-      <workItem from="1629104834563" duration="1914000" />
-      <workItem from="1629449948244" duration="1479000" />
-      <workItem from="1629543603371" duration="1720000" />
-      <workItem from="1629536925524" duration="151000" />
-      <workItem from="1629729548099" duration="6408000" />
-      <workItem from="1629794057706" duration="473000" />
-      <workItem from="1629794546503" duration="8231000" />
-      <workItem from="1629827780095" duration="4046000" />
-      <workItem from="1629904961506" duration="5138000" />
-      <workItem from="1629963014924" duration="599000" />
-      <workItem from="1629966282439" duration="17908000" />
-      <workItem from="1630321414269" duration="33000" />
-      <workItem from="1630580580520" duration="377000" />
-      <workItem from="1630595167152" duration="3791000" />
-      <workItem from="1630858140549" duration="8472000" />
-      <workItem from="1630995868853" duration="2080000" />
-      <workItem from="1630998849864" duration="2456000" />
-      <workItem from="1631002846713" duration="514000" />
-      <workItem from="1631004387606" duration="2110000" />
-      <workItem from="1631079272014" duration="56000" />
-      <workItem from="1631169914660" duration="3013000" />
-      <workItem from="1631601623319" duration="8450000" />
-      <workItem from="1631784324913" duration="3524000" />
-      <workItem from="1631806253216" duration="515000" />
+      <updated>1632224179209</updated>
+      <workItem from="1632224180883" duration="11613000" />
     </task>
-    <task id="LOCAL-00001" summary="docker installing">
-      <created>1626724866371</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1626724866371</updated>
-    </task>
-    <task id="LOCAL-00002" summary="docker installing">
-      <created>1626725101264</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1626725101264</updated>
-    </task>
-    <task id="LOCAL-00003" summary="docker installing">
-      <created>1626769375266</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1626769375266</updated>
-    </task>
-    <task id="LOCAL-00004" summary="lesson 3 (processing)">
-      <created>1626811775602</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1626811775602</updated>
-    </task>
-    <task id="LOCAL-00005" summary="lesson 3 (main part of hometask ended)">
-      <created>1626895367615</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1626895367616</updated>
-    </task>
-    <task id="LOCAL-00006" summary="lesson 5 (almost ended)">
-      <created>1629736170619</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1629736170619</updated>
-    </task>
-    <task id="LOCAL-00007" summary="lesson 5 (almost ended 2)">
-      <created>1629736543005</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1629736543005</updated>
-    </task>
-    <task id="LOCAL-00008" summary="lesson 5 completed">
-      <created>1629800915592</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1629800915592</updated>
-    </task>
-    <task id="LOCAL-00009" summary="lesson 6 completed">
-      <created>1629910679099</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1629910679099</updated>
-    </task>
-    <task id="LOCAL-00010" summary="lesson 7 completed">
-      <created>1629986041398</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1629986041398</updated>
-    </task>
-    <task id="LOCAL-00011" summary="lesson 7 completed">
-      <created>1629987052270</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1629987052270</updated>
-    </task>
-    <task id="LOCAL-00012" summary="lesson 8 processing">
-      <created>1630868118122</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1630868118122</updated>
-    </task>
-    <task id="LOCAL-00013" summary="lesson 8 processing (bug fixes)">
-      <created>1631079316896</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1631079316896</updated>
-    </task>
-    <task id="LOCAL-00014" summary="lesson 9 completed">
-      <created>1631610859914</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1631610859914</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,20 +76,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="docker installing" />
-    <MESSAGE value="lesson 3 (processing)" />
-    <MESSAGE value="lesson 3 (main part of hometask ended)" />
-    <MESSAGE value="lesson 5 (almost ended)" />
-    <MESSAGE value="lesson 5 (almost ended 2)" />
-    <MESSAGE value="lesson 5 completed" />
-    <MESSAGE value="lesson 6 completed" />
-    <MESSAGE value="lesson 7 completed" />
-    <MESSAGE value="lesson 8 processing" />
-    <MESSAGE value="lesson 8 processing (bug fixes)" />
-    <MESSAGE value="lesson 9 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 9 completed" />
   </component>
 </project>

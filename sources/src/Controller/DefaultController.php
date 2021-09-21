@@ -11,6 +11,7 @@ use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Mime\Email;
+use App\Service\RandGenerator;
 
 /**
  * Class DefaultController
@@ -24,17 +25,11 @@ class DefaultController extends AbstractController
     /**
      * @Route ("/", name="default_index")
      *
-     * @param PostRepository $postRepository
-     *
      * @return Response
      */
-    public function indexAction(PostRepository $postRepository) : Response
+    public function indexAction(RandGenerator $randGenerator) : Response
     {
-        $posts = $postRepository->findAll(['published_at' => 'desc']);
-
-        return $this->render('default/index.html.twig', [
-            'posts' => $posts,
-        ]);
+        return new Response($this->getParameter('app.myVar3'));
     }
 
     /**

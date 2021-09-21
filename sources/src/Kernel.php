@@ -7,6 +7,9 @@ use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigura
 use Symfony\Component\HttpKernel\Kernel as BaseKernel;
 use Symfony\Component\Routing\Loader\Configurator\RoutingConfigurator;
 
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use App\DependencyInjection\Compiler\CustomPass;
+
 class Kernel extends BaseKernel
 {
     use MicroKernelTrait;
