@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49534568-b1d2-4ae8-bcf3-342c34ebf9bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/src/DependencyInjection/Compiler/CustomPass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/src/Service/RandGenerator.php" afterDir="false" />
+    <list default="true" id="49534568-b1d2-4ae8-bcf3-342c34ebf9bd" name="Changes" comment="4+">
+      <change afterPath="$PROJECT_DIR$/sources/migrations/Version20210921141040.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/migrations/Version20210921141655.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/migrations/Version20210922072309.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/migrations/Version20210922072755.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/migrations/Version20210927165126.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Controller/ClientController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Controller/NumberController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Controller/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/DataFixtures/ClientFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/DataFixtures/ProductFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Entity/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Entity/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Entity/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Repository/CategoryRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Repository/ClientRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Repository/ProductRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/client/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/number/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/product/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/.env" beforeDir="false" afterPath="$PROJECT_DIR$/sources/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/sources/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/sources/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sources/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sources/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/src/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sources/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/sources/.env.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/src/Controller/PostController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/src/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/src/Entity/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/src/Repository/PostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/src/Repository/PostRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/templates/post/create.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/templates/post/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/templates/post/show.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -39,16 +52,23 @@
     <setting file="file://$PROJECT_DIR$/sources/src/DependencyInjection/Compiler/CustomPass.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1yRpIwtgytQYgyhRYzKlMJ7olHf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,8 +79,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632224179209</updated>
-      <workItem from="1632224180883" duration="11613000" />
+      <workItem from="1632224180883" duration="11711000" />
+      <workItem from="1632294996490" duration="5313000" />
+      <workItem from="1632385180709" duration="614000" />
+      <workItem from="1632487151698" duration="1082000" />
+      <workItem from="1632730264575" duration="23000" />
+      <workItem from="1632730784158" duration="4260000" />
+      <workItem from="1632758418354" duration="3306000" />
     </task>
+    <task id="LOCAL-00001" summary="4+">
+      <created>1632237294692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632237294692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +110,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="4+" />
+    <option name="LAST_COMMIT_MESSAGE" value="4+" />
   </component>
 </project>

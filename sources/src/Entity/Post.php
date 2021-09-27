@@ -11,7 +11,6 @@ use Doctrine\ORM\Mapping as ORM;
 class Post
 {
     /**
-     * @var integer
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
@@ -19,109 +18,75 @@ class Post
     private $id;
 
     /**
-     * @var string
      * @ORM\Column(type="string", length=255)
      */
-    private $name;
+    private $title;
 
     /**
-     * @var string
+     * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="posts")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $category;
+
+    /**
      * @ORM\Column(type="string", length=255)
      */
     private $description;
 
     /**
-     * @var \DateTime
-     * @ORM\Column(type="date")
-     */
-    private $published_at;
-
-    /**
-     * @var string
      * @ORM\Column(type="string", length=255)
      */
-    private $published_by;
+    private $author;
 
-    /**
-     * @return integer|null
-     */
     public function getId(): ?int
     {
         return $this->id;
     }
 
-    /**
-     * @return string|null
-     */
-    public function getName(): ?string
+    public function getTitle(): ?string
     {
-        return $this->name;
+        return $this->title;
     }
 
-    /**
-     * @param string $name
-     * @return $this
-     */
-    public function setName($name): self
+    public function setTitle(string $title): self
     {
-        $this->name = $name;
+        $this->title = $title;
 
         return $this;
     }
 
-    /**
-     * @return string|null
-     */
+    public function getCategory(): ?Category
+    {
+        return $this->category;
+    }
+
+    public function setCategory(?Category $category): self
+    {
+        $this->category = $category;
+
+        return $this;
+    }
+
     public function getDescription(): ?string
     {
         return $this->description;
     }
 
-    /**
-     * @param string $description
-     * @return $this
-     */
-    public function setDescription($description): self
+    public function setDescription(string $description): self
     {
         $this->description = $description;
 
         return $this;
     }
 
-    /**
-     * @return object
-     */
-    public function getPublishedAt(): ?object
+    public function getAuthor(): ?string
     {
-        return $this->published_at;
+        return $this->author;
     }
 
-    /**
-     * @param \DateTime $published_at
-     * @return $this
-     */
-    public function setPublishedAt(\DateTime $published_at): self
+    public function setAuthor(string $author): self
     {
-        $this->published_at = $published_at;
-
-        return $this;
-    }
-
-    /**
-     * @return string|null
-     */
-    public function getPublishedBy(): ?string
-    {
-        return $this->published_by;
-    }
-
-    /**
-     * @param string $published_by
-     * @return $this
-     */
-    public function setPublishedBy($published_by): self
-    {
-        $this->published_by = $published_by;
+        $this->author = $author;
 
         return $this;
     }
